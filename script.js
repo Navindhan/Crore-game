@@ -44,10 +44,10 @@
 	// loadQuiz();
 		
 // ext.innerText=quiz_2.length;	
-	window.onload=function(){
-		alert('Inner Width: ' + window.innerWidth + ', Inner Height: '+ window.innerHeight+ 
-				', Outer Width: ' + window.outerWidth + ', Outer Height: ' + window.outerHeight + '.')
-	}
+// 	window.onload=function(){
+// 		alert('Inner Width: ' + window.innerWidth + ', Inner Height: '+ window.innerHeight+ 
+// 				', Outer Width: ' + window.outerWidth + ', Outer Height: ' + window.outerHeight + '.')
+// 	}
 	var rand=Math.floor(Math.random()*(quiz.length));
 	qnI.addEventListener('click',function(){
 		if(qnI.innerText=="₹"){
